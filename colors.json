@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Blue",
+    "config": "083D77",
+    "waistcoat": "0000FF",
+    "sound": 29
+  },
+  {
+    "name": "Green",
+    "config": "306B34",
+    "waistcoat": "00FF00",
+    "sound": 28
+  },
+  {
+    "name": "Red",
+    "config": "A31621",
+    "waistcoat": "FF0000",
+    "sound": 30
+  },
+  {
+    "name": "Pink",
+    "config": "A682FF",
+    "waistcoat": "D500FF",
+    "sound": 30
+  },
+  {
+    "name": "Lime",
+    "config": "7FBC52",
+    "waistcoat": "55FF15",
+    "sound": 30
+  },
+  {
+    "name": "Yellow",
+    "config": "B88803",
+    "waistcoat": "FFFF00",
+    "sound": 30
+  },
+  {
+    "name": "Cyan",
+    "config": "3DD6D0",
+    "waistcoat": "00C28D",
+    "sound": 30
+  },
+  {
+    "name": "Brown",
+    "config": "6B2B06",
+    "waistcoat": "FF6622",
+    "sound": 30
+  },
+  {
+    "name": "Orange",
+    "config": "D04400",
+    "waistcoat": "A23300",
+    "sound": 30
+  },
+  {
+    "name": "Purple",
+    "config": "715AFF",
+    "waistcoat": "2525FF",
+    "sound": 30
+  },
+  {
+    "name": "Black",
+    "config": "000000",
+    "waistcoat": "000000",
+    "sound": 37
+  }
+]

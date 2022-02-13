@@ -1,0 +1,10 @@
+{
+  "name": "Supercharge",
+  "gametime": 600,
+  "teams": [
+    {
+      "name": "Individual",
+      "color": 1
+    }
+  ]
+}

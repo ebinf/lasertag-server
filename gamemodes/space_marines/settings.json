@@ -1,0 +1,12 @@
+{
+  "name": "Spaces Marines",
+  "teams": [
+    {
+      "color": 1
+    },
+    {
+      "color": 2
+    }
+  ],
+  "no_standard": true
+}

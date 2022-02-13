@@ -1,0 +1,21 @@
+{
+  "name": "LFL Ligamission",
+  "teams": 2,
+  "teams": [
+    {
+      "color": 8
+    },
+    {
+      "color": 3
+    }
+  ],
+  "friendlyfire": {
+    "friendlyfire": false,
+    "friendlydeactivate": true,
+    "friendlykill": 100,
+    "friendlydeath": 50,
+    "friendlysuicide": false
+  },
+  "pointsforkill": 100,
+  "pointsfordeath": 50
+}

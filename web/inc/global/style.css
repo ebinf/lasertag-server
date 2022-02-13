@@ -1,0 +1,24 @@
+body {
+  background-image: url("bg.jpg");
+}
+
+.waistcoatsSelection {
+  padding: 2px 0px 2px 0px;
+}
+
+#spinner {
+  position: absolute;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+#navbar {
+  position: relative;
+  width: 60px;
+  z-index: 20;
+}
+
+.clock {
+  font-size: 3rem;
+  border: 1px solid #6c757d;
+}

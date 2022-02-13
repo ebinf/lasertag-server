@@ -1,0 +1,11 @@
+{
+  "name": "Recharge",
+  "teams": [
+    {
+      "name": "Individual",
+      "color": 3
+    }
+  ],
+  "lives": 5,
+  "ammunition": 100
+}

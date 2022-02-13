@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr" class="h-100">
+  <head>
+    <title>Lasertag</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="inc/bootstrap/css/theme.min.css" />
+    <link rel="stylesheet" href="inc/global/style.css" />
+    <link rel="stylesheet" href="inc/ionicons/css/ionicons.min.css">
+    <script src="inc/popper/popper.min.js"></script>
+    <script src="inc/jquery/jquery.min.js"></script>
+    <script src="inc/jquery/jquery-ui.min.js"></script>
+    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/eel.js"></script>
+    <script src="inc/global/script.js"></script>
+  </head>
+  <body class="h-100 border-0">
+    <div class="d-flex align-items-center justify-content-center w-100 h-100" id="spinner">
+      <div class="spinner-grow text-light" role="status"></div>
+    </div>
+    <div class="h-100 float-left bg-dark border-right border-danger p-2 text-center" id="navbar">
+    </div>
+    <div class="card-deck h-100 p-5">
+
+      <div class="card h-100 p-0 bg-transparent border-0">
+        <div class="card border-danger h-50 m-0 mb-4">
+          <h3 class="card-header">CONTROLS</h3>
+          <div class="card-body">
+            <div class="input-group mb-3">
+              <input class="clock form-control text-right form-control-lg bg-dark text-white border-right-0 p-1" type="text" value="00" minlength="1" maxlength="2" pattern="[0-9]{2}" disabled id="minutes">
+              <span class="clock text-white text-center bg-dark border-left-0 border-right-0">:</span>
+              <input class="clock form-control text-left form-control-lg bg-dark text-white border-left-0 p-1" type="text" value="00" minlength="1" maxlength="2" pattern="[0-9]{2}" disabled id="seconds">
+            </div>
+            <button class="btn btn-block btn-success" id="start_0" disabled>Start</btn>
+            <button class="btn btn-block btn-info" id="start_10" disabled><span class="spinner-grow spinner-grow-sm" style="display: none;"></span> Countdown 10s</btn>
+            <button class="btn btn-block btn-info" id="start_30" disabled><span class="spinner-grow spinner-grow-sm" style="display: none;"></span> Countdown 30s</btn>
+            <button class="btn btn-block btn-danger" id="stop" disabled>Stop</btn>
+          </div>
+        </div>
+
+        <div class="card border-danger h-50 m-0">
+          <h3 class="card-header">GAMEMODE</h3>
+          <div class="card-body" id="gamectrl">
+            <div class="form-group">
+              <label>Gamemode</label>
+              <select class="form-control" id="gamemode">
+                <option value="-1" selected>– Select –</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Variation</label>
+              <select class="form-control" id="variations" disabled>
+                <option value="-1" selected disabled>– Select a gamemode –</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Teams</label>
+              <input type="number" class="form-control" step="1" min="1" max="10" value="0" id="ctrl_teams" disabled>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card border-danger h-100" id="teams_panel">
+        <h3 class="card-header">TEAMS</h3>
+        <div class="card-body overflow-auto" id="teams"></div>
+      </div>
+
+      <div class="card border-danger h-100">
+        <h3 class="card-header">AVAILABLE</h3>
+        <ul class="list-group list-group-flush" id="unused"></ul>
+        <div class="card-body p-3 overflow-auto" id="inactive"></div>
+      </div>
+
+
+      <div class="card border-danger h-100">
+        <h3 class="card-header">ACTIVATED</h3>
+        <div class="card-body p-3 overflow-auto" id="active"></div>
+      </div>
+    </div>
+  </body>
+</html>

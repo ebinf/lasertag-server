@@ -1,0 +1,9 @@
+{
+  "name": "Color Conquest",
+  "teams": 0,
+  "lives": 3,
+  "randomizeteams": true,
+  "refereemodes": {
+    "shuffle": "0FF"
+  }
+}
